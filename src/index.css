@@ -1,0 +1,96 @@
+body {
+
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.container {
+  width: 90%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.mx-1 {
+  margin: 0 1rem;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.selected {
+  background-color: darkcyan;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.filter-wrapper{
+  max-width: 30%;
+  min-width: 20%;
+}
+
+.product_wrapper {
+  overflow: auto;
+  height: 80vh;
+  min-width: 70%;
+  max-width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product_holder{
+  min-width: 300px;
+  max-width: 500px;
+  
+}
+.modal-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1050; /* Ensure it's above other content */
+}
+.modal-card {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 500px;
+  position: relative;
+}
+.modal-body{
+  padding: 2rem;
+}
+.modal-information{
+  display: block;
+}
+
+.modal-close-icon {
+  cursor: pointer;
+  font-size: 24px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.modal-information p{
+  margin: 0.2rem;
+  text-align: start;
+}
